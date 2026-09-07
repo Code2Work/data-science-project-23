@@ -8,13 +8,13 @@ def load_monster_data(filepath: str) -> pd.DataFrame:
     Witcher Universe dünyasında canavar avı istatistiklerini içeren CSV dosyasını okur.
     
     Input:
-        filepath (str): CSV dosyasının yolu. Örnek: "data/witcher_monsters.csv"
+        filepath (str): CSV dosyasının yolu. Örnek: "tasks/witcher_monsters.csv"
     
     Output:
         pd.DataFrame: Veri seti.
     
     Örnek:
-        Input: "data/witcher_monsters.csv"
+        Input: "tasks/witcher_monsters.csv"
         Output: pandas.DataFrame (örnek kolonlar: ["monster_name", "region", "kills", "difficulty", "reward"])
     """
     pass
